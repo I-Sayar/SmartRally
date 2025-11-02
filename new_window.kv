@@ -1,0 +1,169 @@
+#:kivy 2.1.0
+
+WindowManager:
+    Start:
+    Upload:
+    NBM:
+    Archives:
+
+
+<Start>:
+    name: "start"
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+        padding: [20, 20, 20, 20]
+        spacing: 20
+        
+        Image:
+            source: "smartrally.png"
+            size_hint: None, None
+            size: "1000dp", "500dp"
+            pos_hint: {'center_x': 0.495, 'center_y': 0.75}
+        
+        Label:
+            text: ""
+            font_size: "30sp"
+            font_name: "Roboto"
+            color: 0, 0, 0, 1  
+            size_hint_y: None
+            height: self.texture_size[1]
+            halign: "center"
+        
+        # Button:
+        #     text: "Upload Video"
+        #     font_size: "24sp"
+        #     font_name: "Roboto"
+        #     size_hint: None, None
+        #     size: "250dp", "50dp"
+        #     pos_hint: {"center_x": 0.5}
+        #     # background_color: 0, 127, 0, 0.32
+        #     background_color: 112/255,125/255, 106/255, 0.6#141/255,153/255, 132/255, 100/100#0, 0.34, 0, 0.42
+        #     background_normal: ''
+        #     background_down: ''
+        #     border: (20, 20, 20, 20)  
+        #     # on_release: app.open_filechooser()  
+        #     on_release:
+        #         app.root.current = "upload"
+        #         root.manager.transition.direction = "left"
+        
+        Button:
+            text: "Next Best Move"
+            font_size: "24sp"
+            font_name: "Roboto"
+            size_hint: None, None
+            size: "250dp", "50dp"
+            pos_hint: {"center_x": 0.5}
+            background_color: 112/255,125/255, 106/255, 0.8
+            background_normal: ''
+            background_down: ''
+            border: (20, 20, 20, 20)
+            on_release:
+                app.root.current = "nbm"
+                root.manager.transition.direction = "left"
+        Button:
+            text: "View Archives"
+            font_size: '24sp'
+            font_name: "Roboto"
+            size_hint: None, None
+            size: "250dp", "50dp"
+            pos_hint: {"center_x": 0.5}
+            background_color: 112/255,125/255, 106/255, 1#87/255,105/255, 85/255, 100/100#0, 0.17, 0, 0.6   # Muted green
+            background_normal: ''
+            background_down: ''
+            border: (20, 20, 20, 20)
+            on_release: 
+                root.manager.current = "archives"
+                root.manager.transition.direction = "left"
+
+            # background_color: 0.3, 0.6, 0.8, 1
+
+
+<Upload>:
+    name: "upload"
+    background_color : (0.94, 0.98, 0.94, 1)
+    
+    # BoxLayout:
+    #     id: upload_box  # Add this ID so we can access it in Python
+    #     orientation: "vertical"
+    #     size: root.width, root.height
+    #     padding: [20, 20, 20, 20]
+    #     spacing: 20
+        
+    #     Button:
+    #         text: "Upload Video"  # Changed to "Upload Video" for clarity
+    #         size_hint_y: None
+    #         height: 50
+    #         on_press: root.upload_file()  # Call the method on the root (Upload screen)
+        
+    #     Button:
+    #         text: "Generate NBMs"
+    #         font_size: "24sp"
+    #         font_name: "Roboto"
+    #         size_hint: None, None
+    #         size: "250dp", "50dp"
+    #         pos_hint: {"center_x": 0.5}
+    #         font_size: 32
+    #         background_color: 0.75, 0.5, 0.6, 1  # Muted pink
+    #         on_release:
+    #             app.root.current = "nbm"
+    #             root.manager.transition.direction = "left"
+        
+    #     Button:
+    #         text: "Back to Start Menu"
+    #         font_name: "Roboto"
+    #         size_hint: None, None
+    #         size: "250dp", "50dp"
+    #         pos_hint: {"center_x": 0.5}
+    #         background_color: 0.8, 0.6, 0.7, 1  # Muted pink
+    #         background_normal: ''
+    #         background_down: ''
+    #         border: (20, 20, 20, 20)
+    #         on_release:
+    #             app.root.current = "start"
+    #             root.manager.transition.direction = "right"
+<NBM>:
+    name: "nbm"
+    background_color : (0.94, 0.98, 0.94, 1)
+
+    # BoxLayout:
+    #     orientation: "vertical"
+    #     size: root.width, root.height
+    #     padding: [20, 20, 20, 20]
+    #     spacing: 20
+    #     # size_hint: 0.8
+    #     Button: 
+    #         text: 'Go to Video Player'
+    #         on_press: 
+    #             root.create_ui()
+           
+    #     Button: 
+    #         text: "Back to Upload"
+    #         font_name: "Roboto"
+    #         size_hint: None, None
+    #         size: "250dp", "50dp"
+    #         pos_hint: {"center_x": 0.5}
+    #         font_size: 32
+    #         background_color: 0.75, 0.5, 0.6, 1  # Muted pink
+    #         on_release: 
+    #             app.root.current = "upload"
+    #             root.manager.transition.direction = "left"
+
+    #     Button:
+    #         text: "Back to Start Menu"
+    #         font_size: "24sp"
+    #         font_name: "Roboto"
+    #         size_hint: None, None
+    #         size: "250dp", "50dp"
+    #         pos_hint: {"center_x": 0.5}
+    #         background_color: 0.8, 0.6, 0.7, 1  # Muted pink
+    #         background_normal: ''
+    #         background_down: ''
+    #         border: (20, 20, 20, 20)
+    #         on_release:
+    #             app.root.current = "start"
+    #             root.manager.transition.direction = "right"
+
+<Archives>:
+    name: "archives"
+    background_color : (0.94, 0.98, 0.94, 1)
