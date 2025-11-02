@@ -1,0 +1,405 @@
+Likely next move :
+Cut :
+   Lift : 0.4904392764857881
+   Cut : 0.2723514211886305
+   Push Shot : 0.1111111111111111
+   Cross-Court Flight : 0.041343669250646
+   Short Serve : 0.03255813953488372
+   Unknown Serve : 0.02428940568475452
+   Rush Shot : 0.021705426356589147
+   Short Flat Shot : 0.0020671834625322996
+   Long Serve : 0.0020671834625322996
+   Flat Shot : 0.0010335917312661498
+   Block : 0.0005167958656330749
+   Smash : 0.0005167958656330749
+   Dont play Tap Smash after Cut
+   Dont play Defensive Clear after Cut
+   Dont play Clear after Cut
+   Dont play Rear-Court Flat Drive after Cut
+   Dont play Drop Shot after Cut
+   Dont play Defensive Drive after Cut
+Block :
+   Cut : 0.291866028708134
+   Lift : 0.24401913875598086
+   Push Shot : 0.14736842105263157
+   Cross-Court Flight : 0.09186602870813397
+   Rush Shot : 0.05933014354066986
+   Unknown Serve : 0.05933014354066986
+   Short Serve : 0.05071770334928229
+   Long Serve : 0.01722488038277512
+   Short Flat Shot : 0.015311004784688996
+   Block : 0.00861244019138756
+   Smash : 0.0066985645933014355
+   Flat Shot : 0.0066985645933014355
+   Defensive Drive : 0.0009569377990430622
+   Dont play Tap Smash after Block
+   Dont play Defensive Clear after Block
+   Dont play Clear after Block
+   Dont play Rear-Court Flat Drive after Block
+   Dont play Drop Shot after Block
+Smash :
+   Block : 0.5983313468414779
+   Short Serve : 0.13230035756853398
+   Unknown Serve : 0.10250297973778308
+   Defensive Drive : 0.054827175208581644
+   Cross-Court Flight : 0.041716328963051254
+   Defensive Clear : 0.03456495828367104
+   Long Serve : 0.015494636471990465
+   Cut : 0.013110846245530394
+   Short Flat Shot : 0.003575685339690107
+   Smash : 0.0011918951132300357
+   Tap Smash : 0.0011918951132300357
+   Push Shot : 0.0011918951132300357
+   Dont play Lift after Smash
+   Dont play Clear after Smash
+   Dont play Flat Shot after Smash
+   Dont play Rear-Court Flat Drive after Smash
+   Dont play Drop Shot after Smash
+   Dont play Rush Shot after Smash
+Tap Smash :
+   Block : 0.6221719457013575
+   Short Serve : 0.08144796380090498
+   Unknown Serve : 0.07692307692307693
+   Cross-Court Flight : 0.06108597285067873
+   Defensive Drive : 0.049773755656108594
+   Defensive Clear : 0.042986425339366516
+   Cut : 0.038461538461538464
+   Lift : 0.011312217194570135
+   Push Shot : 0.006787330316742082
+   Long Serve : 0.006787330316742082
+   Short Flat Shot : 0.0022624434389140274
+   Dont play Smash after Tap Smash
+   Dont play Tap Smash after Tap Smash
+   Dont play Clear after Tap Smash
+   Dont play Flat Shot after Tap Smash
+   Dont play Rear-Court Flat Drive after Tap Smash
+   Dont play Drop Shot after Tap Smash
+   Dont play Rush Shot after Tap Smash
+Lift :
+   Smash : 0.2465753424657534
+   Drop Shot : 0.23232876712328768
+   Clear : 0.20054794520547944
+   Tap Smash : 0.12383561643835617
+   Short Serve : 0.04547945205479452
+   Cut : 0.0410958904109589
+   Rear-Court Flat Drive : 0.030136986301369864
+   Unknown Serve : 0.028493150684931506
+   Lift : 0.016986301369863014
+   Push Shot : 0.0136986301369863
+   Cross-Court Flight : 0.009863013698630137
+   Long Serve : 0.0038356164383561643
+   Block : 0.002191780821917808
+   Rush Shot : 0.002191780821917808
+   Short Flat Shot : 0.001095890410958904
+   Flat Shot : 0.001095890410958904
+   Defensive Clear : 0.000547945205479452
+   Dont play Defensive Drive after Lift
+Defensive Clear :
+   Smash : 0.2631578947368421
+   Drop Shot : 0.24210526315789474
+   Clear : 0.21052631578947367
+   Tap Smash : 0.09473684210526316
+   Short Serve : 0.05263157894736842
+   Unknown Serve : 0.042105263157894736
+   Cut : 0.031578947368421054
+   Rear-Court Flat Drive : 0.031578947368421054
+   Push Shot : 0.021052631578947368
+   Rush Shot : 0.010526315789473684
+   Dont play Block after Defensive Clear
+   Dont play Lift after Defensive Clear
+   Dont play Defensive Clear after Defensive Clear
+   Dont play Short Flat Shot after Defensive Clear
+   Dont play Flat Shot after Defensive Clear
+   Dont play Defensive Drive after Defensive Clear
+   Dont play Cross-Court Flight after Defensive Clear
+   Dont play Long Serve after Defensive Clear
+Clear :
+   Smash : 0.24552429667519182
+   Clear : 0.2289002557544757
+   Drop Shot : 0.1969309462915601
+   Tap Smash : 0.14194373401534527
+   Unknown Serve : 0.04219948849104859
+   Short Serve : 0.03964194373401535
+   Cut : 0.02557544757033248
+   Push Shot : 0.021739130434782608
+   Rear-Court Flat Drive : 0.015345268542199489
+   Cross-Court Flight : 0.011508951406649617
+   Long Serve : 0.008951406649616368
+   Lift : 0.0076726342710997444
+   Rush Shot : 0.00639386189258312
+   Block : 0.005115089514066497
+   Defensive Clear : 0.0012787723785166241
+   Short Flat Shot : 0.0012787723785166241
+   Dont play Flat Shot after Clear
+   Dont play Defensive Drive after Clear
+Short Flat Shot :
+   Short Flat Shot : 0.37373737373737376
+   Block : 0.3181818181818182
+   Short Serve : 0.06060606060606061
+   Cut : 0.050505050505050504
+   Defensive Clear : 0.045454545454545456
+   Unknown Serve : 0.03535353535353535
+   Lift : 0.030303030303030304
+   Push Shot : 0.025252525252525252
+   Rush Shot : 0.025252525252525252
+   Defensive Drive : 0.020202020202020204
+   Tap Smash : 0.010101010101010102
+   Clear : 0.005050505050505051
+   Dont play Smash after Short Flat Shot
+   Dont play Flat Shot after Short Flat Shot
+   Dont play Rear-Court Flat Drive after Short Flat Shot
+   Dont play Drop Shot after Short Flat Shot
+   Dont play Cross-Court Flight after Short Flat Shot
+   Dont play Long Serve after Short Flat Shot
+Flat Shot :
+   Push Shot : 0.3448275862068966
+   Lift : 0.1724137931034483
+   Flat Shot : 0.1724137931034483
+   Cut : 0.10344827586206896
+   Short Flat Shot : 0.10344827586206896
+   Block : 0.034482758620689655
+   Rush Shot : 0.034482758620689655
+   Short Serve : 0.034482758620689655
+   Dont play Smash after Flat Shot
+   Dont play Tap Smash after Flat Shot
+   Dont play Defensive Clear after Flat Shot
+   Dont play Clear after Flat Shot
+   Dont play Rear-Court Flat Drive after Flat Shot
+   Dont play Drop Shot after Flat Shot
+   Dont play Defensive Drive after Flat Shot
+   Dont play Cross-Court Flight after Flat Shot
+   Dont play Long Serve after Flat Shot
+   Dont play Unknown Serve after Flat Shot
+Rear-Court Flat Drive :
+   Block : 0.5555555555555556
+   Short Flat Shot : 0.11764705882352941
+   Cross-Court Flight : 0.05228758169934641
+   Defensive Clear : 0.0457516339869281
+   Cut : 0.0392156862745098
+   Unknown Serve : 0.0392156862745098
+   Push Shot : 0.032679738562091505
+   Tap Smash : 0.026143790849673203
+   Short Serve : 0.026143790849673203
+   Defensive Drive : 0.0196078431372549
+   Drop Shot : 0.013071895424836602
+   Rush Shot : 0.013071895424836602
+   Smash : 0.006535947712418301
+   Lift : 0.006535947712418301
+   Clear : 0.006535947712418301
+   Dont play Flat Shot after Rear-Court Flat Drive
+   Dont play Rear-Court Flat Drive after Rear-Court Flat Drive
+   Dont play Long Serve after Rear-Court Flat Drive
+Drop Shot :
+   Cut : 0.5040760869565217
+   Lift : 0.19701086956521738
+   Cross-Court Flight : 0.11684782608695653
+   Unknown Serve : 0.05434782608695652
+   Push Shot : 0.04619565217391304
+   Short Serve : 0.042119565217391304
+   Block : 0.017663043478260868
+   Long Serve : 0.008152173913043478
+   Rush Shot : 0.006793478260869565
+   Defensive Clear : 0.002717391304347826
+   Smash : 0.001358695652173913
+   Short Flat Shot : 0.001358695652173913
+   Flat Shot : 0.001358695652173913
+   Dont play Tap Smash after Drop Shot
+   Dont play Clear after Drop Shot
+   Dont play Rear-Court Flat Drive after Drop Shot
+   Dont play Drop Shot after Drop Shot
+   Dont play Defensive Drive after Drop Shot
+Push Shot :
+   Clear : 0.21473951715374842
+   Smash : 0.11435832274459974
+   Rear-Court Flat Drive : 0.0940279542566709
+   Drop Shot : 0.0940279542566709
+   Tap Smash : 0.07496823379923762
+   Push Shot : 0.062261753494282084
+   Short Serve : 0.05717916137229987
+   Block : 0.05590851334180432
+   Short Flat Shot : 0.05590851334180432
+   Cut : 0.052096569250317665
+   Unknown Serve : 0.044472681067344345
+   Cross-Court Flight : 0.0241423125794155
+   Lift : 0.01905972045743329
+   Defensive Clear : 0.015247776365946633
+   Rush Shot : 0.011435832274459974
+   Long Serve : 0.008894536213468869
+   Defensive Drive : 0.0012706480304955528
+   Dont play Flat Shot after Push Shot
+Rush Shot :
+   Short Serve : 0.25806451612903225
+   Unknown Serve : 0.23870967741935484
+   Block : 0.14838709677419354
+   Defensive Drive : 0.14838709677419354
+   Defensive Clear : 0.0967741935483871
+   Short Flat Shot : 0.06451612903225806
+   Long Serve : 0.025806451612903226
+   Cut : 0.012903225806451613
+   Lift : 0.0064516129032258064
+   Dont play Smash after Rush Shot
+   Dont play Tap Smash after Rush Shot
+   Dont play Clear after Rush Shot
+   Dont play Flat Shot after Rush Shot
+   Dont play Rear-Court Flat Drive after Rush Shot
+   Dont play Drop Shot after Rush Shot
+   Dont play Push Shot after Rush Shot
+   Dont play Rush Shot after Rush Shot
+   Dont play Cross-Court Flight after Rush Shot
+Defensive Drive :
+   Block : 0.1485148514851485
+   Short Flat Shot : 0.1188118811881188
+   Clear : 0.09900990099009901
+   Rush Shot : 0.0891089108910891
+   Short Serve : 0.0891089108910891
+   Smash : 0.07920792079207921
+   Push Shot : 0.07920792079207921
+   Tap Smash : 0.0594059405940594
+   Drop Shot : 0.0594059405940594
+   Unknown Serve : 0.0594059405940594
+   Lift : 0.04950495049504951
+   Rear-Court Flat Drive : 0.019801980198019802
+   Cross-Court Flight : 0.019801980198019802
+   Long Serve : 0.019801980198019802
+   Cut : 0.009900990099009901
+   Dont play Defensive Clear after Defensive Drive
+   Dont play Flat Shot after Defensive Drive
+   Dont play Defensive Drive after Defensive Drive
+Cross-Court Flight :
+   Lift : 0.41067285382830626
+   Cut : 0.2900232018561485
+   Push Shot : 0.12529002320185614
+   Short Serve : 0.058004640371229696
+   Unknown Serve : 0.058004640371229696
+   Cross-Court Flight : 0.037122969837587005
+   Rush Shot : 0.009280742459396751
+   Long Serve : 0.0069605568445475635
+   Block : 0.002320185614849188
+   Short Flat Shot : 0.002320185614849188
+   Dont play Smash after Cross-Court Flight
+   Dont play Tap Smash after Cross-Court Flight
+   Dont play Defensive Clear after Cross-Court Flight
+   Dont play Clear after Cross-Court Flight
+   Dont play Flat Shot after Cross-Court Flight
+   Dont play Rear-Court Flat Drive after Cross-Court Flight
+   Dont play Drop Shot after Cross-Court Flight
+   Dont play Defensive Drive after Cross-Court Flight
+Short Serve :
+   Cut : 0.47761194029850745
+   Lift : 0.2470978441127695
+   Push Shot : 0.20563847429519072
+   Cross-Court Flight : 0.03814262023217247
+   Flat Shot : 0.011608623548922056
+   Rush Shot : 0.006633499170812604
+   Short Serve : 0.006633499170812604
+   Short Flat Shot : 0.004975124378109453
+   Smash : 0.001658374792703151
+   Dont play Block after Short Serve
+   Dont play Tap Smash after Short Serve
+   Dont play Defensive Clear after Short Serve
+   Dont play Clear after Short Serve
+   Dont play Rear-Court Flat Drive after Short Serve
+   Dont play Drop Shot after Short Serve
+   Dont play Defensive Drive after Short Serve
+   Dont play Long Serve after Short Serve
+   Dont play Unknown Serve after Short Serve
+Long Serve :
+   Smash : 0.3170731707317073
+   Drop Shot : 0.2682926829268293
+   Clear : 0.21951219512195122
+   Tap Smash : 0.14634146341463414
+   Unknown Serve : 0.024390243902439025
+   Cut : 0.012195121951219513
+   Lift : 0.012195121951219513
+   Dont play Block after Long Serve
+   Dont play Defensive Clear after Long Serve
+   Dont play Short Flat Shot after Long Serve
+   Dont play Flat Shot after Long Serve
+   Dont play Rear-Court Flat Drive after Long Serve
+   Dont play Push Shot after Long Serve
+   Dont play Rush Shot after Long Serve
+   Dont play Defensive Drive after Long Serve
+   Dont play Cross-Court Flight after Long Serve
+   Dont play Short Serve after Long Serve
+   Dont play Long Serve after Long Serve
+Unknown Serve :
+   Cut : 0.2231833910034602
+   Unknown Serve : 0.17647058823529413
+   Push Shot : 0.14013840830449828
+   Lift : 0.12802768166089964
+   Short Serve : 0.08650519031141868
+   Smash : 0.06401384083044982
+   Drop Shot : 0.05363321799307959
+   Clear : 0.031141868512110725
+   Tap Smash : 0.020761245674740483
+   Cross-Court Flight : 0.020761245674740483
+   Rear-Court Flat Drive : 0.012110726643598616
+   Long Serve : 0.012110726643598616
+   Block : 0.00865051903114187
+   Short Flat Shot : 0.00865051903114187
+   Flat Shot : 0.00865051903114187
+   Rush Shot : 0.0034602076124567475
+   Defensive Drive : 0.0017301038062283738
+   Dont play Defensive Clear after Unknown Serve
+
+Most common move following any previous move: Cut
+
+Best move to score a point (/total score): #total of times it was played and how many times it scored a point 
+   Lift : 0.22341696535244923
+   Push Shot : 0.2019115890083632
+   Tap Smash : 0.17443249701314217
+   Smash : 0.16726403823178015
+   Clear : 0.09199522102747909
+   Rush Shot : 0.07526881720430108
+   Unknown Serve : 0.06571087216248507
+   Drop Shot : 0.03942652329749104
+   Cut : 0.02031063321385902
+   Cross-Court Flight : 0.017921146953405017
+   Block : 0.011947431302270013
+   Defensive Drive : 0.011947431302270013
+   Defensive Clear : 0.008363201911589008
+   Short Flat Shot : 0.007168458781362007
+   Rear-Court Flat Drive : 0.0023894862604540022
+   Short Serve : 0.0023894862604540022
+   Long Serve : 0.0023894862604540022
+   Flat Shot : 0.0
+
+Best move to score a point (/# of times move was played): #every time that move is played it is this likey to score a point, however that move cannot be played all the time either 
+   Rush Shot : 0.4064516129032258
+   Tap Smash : 0.33031674208144796
+   Push Shot : 0.21473951715374842
+   Smash : 0.16686531585220502
+   Lift : 0.10246575342465754
+   Defensive Drive : 0.09900990099009901
+   Clear : 0.09846547314578005
+   Unknown Serve : 0.09515570934256055
+   Defensive Clear : 0.07368421052631578
+   Drop Shot : 0.04483695652173913
+   Cross-Court Flight : 0.03480278422273782
+   Short Flat Shot : 0.030303030303030304
+   Long Serve : 0.024390243902439025
+   Rear-Court Flat Drive : 0.013071895424836602
+   Block : 0.009569377990430622
+   Cut : 0.008785529715762274
+   Short Serve : 0.003316749585406302
+   Flat Shot : 0.0
+
+Most to least likely to be played: (/total moves (10816))
+   Cut 0.1789016272189349
+   Lift 0.16873150887573965
+   Block 0.09661612426035503
+   Smash 0.07757026627218935
+   Push Shot 0.07276257396449703
+   Clear 0.07230029585798817
+   Drop Shot 0.06804733727810651
+   Short Serve 0.05575073964497041
+   Unknown Serve 0.05343934911242604
+   Tap Smash 0.040865384615384616
+   Cross-Court Flight 0.03984837278106509
+   Short Flat Shot 0.01830621301775148
+   Rush Shot 0.014330621301775148
+   Rear-Court Flat Drive 0.014145710059171597
+   Defensive Drive 0.00933801775147929
+   Defensive Clear 0.008783284023668639
+   Long Serve 0.007581360946745562
+   Flat Shot 0.002681213017751479
